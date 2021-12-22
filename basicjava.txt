@@ -1,0 +1,23 @@
+package Array;
+
+import java.util.Arrays;
+
+public class basic {
+
+	public static void main(String[] args) {
+		String ar[]=new String [5];
+ar[0]="ramesh";
+ar[1]="suresh";
+ar[2]="abc";
+ar[3]="xyz";
+ar[4]="pqr";
+System.out.println(ar[4]);
+System.out.println(ar.length);
+//Arrays.sort(ar);
+
+for(int i=0;i<=ar.length-1;i++) {
+System.out.println(ar[i]);
+	}
+
+}
+}
